@@ -1,0 +1,15 @@
+/* manifest.json */
+{
+	"name": "ここに拡張機能の名前",
+  "manifest_version": 2,
+	"version": "1.0.12.3456",
+	"description": "momentumのパクリ",
+	"permissions": [ "tabs" ],
+  "page_action": {
+       "default_title": "Ext title",
+       "default_popup": "/public/index.html"
+   },
+   "chrome_url_overrides": {
+   "newtab": "/public/index.html"
+ }
+}
